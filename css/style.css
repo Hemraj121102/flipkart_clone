@@ -3,18 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(255, 237, 237);
+}
 .nav{
     display: flex;
     height:70px;
-    /* background-color: aqua;   */
+    background-color: rgb(255, 255, 255);  
     justify-content:space-around ;
     align-items: center;
 
 
+
+}
+.login{
+    padding: 10px;
+    border-radius: 5px;
+}
+i{
+    padding: 8px;
 }
 .logo img{
-    height:50px;
+    height:38px;
     
     
 }
+.search{
+width: 400px;
+   background-color: rgb(255, 242, 242);
+   border-radius: 5px;
+}
+
+.search i{
+    width: 9% ;
+}
+.search input{
+    width: 80%; 
+    border: none;
+    background-color: rgb(255, 242, 242);
+    height:30px ;
+    font-size: 18px;
+    font-weight: 200;
+
+
+}
+.search  input:focus{
+   
+    outline: none
+}
+.login:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+
     
