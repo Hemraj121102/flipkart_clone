@@ -55,6 +55,45 @@ width: 400px;
     background-color: blue;
     color: #fff;
 }
+/* header2  sttaarts */
+.header2{
+    background-color: #fff;
+    height: 155px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+.manu{
+    height: 100px;
+    width: 10vw;
+    padding: 20px;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.box0{
+    background-image: url("../images/grocery.jpg");
+}
+.box1{
+    background-image: url("../images/mobile.jpg");
+}
+.box2{
+    background-image: url("../images/fashion.jpg");
+}
+.box3{
+    background-image: url("../images/lektop.jpg");
+}
+.box4{
+    background-image: url("../images/download.jpg");
+}
 
 
     
