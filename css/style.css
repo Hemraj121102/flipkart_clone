@@ -1,62 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(255, 237, 237);
 }
-.nav{
+
+.nav {
     display: flex;
-    height:70px;
-    background-color: rgb(255, 255, 255);  
-    justify-content:space-around ;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
     align-items: center;
 
 
 
 }
-.login{
+
+.login {
     padding: 10px;
     border-radius: 5px;
 }
-i{
-    padding: 8px;
-}
-.logo img{
-    height:38px;
-    
-    
-}
-.search{
-width: 400px;
-   background-color: rgb(255, 242, 242);
-   border-radius: 5px;
+
+
+
+
+.logo img {
+    height: 38px;
+
+
 }
 
-.search i{
-    width: 9% ;
+.search {
+    width: 400px;
+    background-color: rgb(255, 242, 242);
+    border-radius: 5px;
 }
-.search input{
-    width: 80%; 
+
+.search i {
+    width: 9%;
+}
+
+.search input {
+    width: 80%;
     border: none;
     background-color: rgb(255, 242, 242);
-    height:30px ;
+    height: 30px;
     font-size: 18px;
     font-weight: 200;
 
 
 }
-.search  input:focus{
-   
+
+.search input:focus {
+
     outline: none
 }
-.login:hover{
+
+.login:hover {
     background-color: blue;
     color: #fff;
 }
+
 /* header2  sttaarts */
-.header2{
+.header2 {
     background-color: #fff;
     height: 155px;
     margin-top: 20px;
@@ -70,7 +79,8 @@ width: 400px;
     text-transform: capitalize;
 
 }
-.manu{
+
+.manu {
     height: 100px;
     width: 10vw;
     padding: 20px;
@@ -79,21 +89,33 @@ width: 400px;
     background-size: cover;
 
 }
-.box0{
+
+.box0 {
     background-image: url("../images/grocery.jpg");
 }
-.box1{
+
+.box1 {
     background-image: url("../images/mobile.jpg");
 }
-.box2{
+
+.box2 {
     background-image: url("../images/fashion.jpg");
 }
-.box3{
+
+.box3 {
     background-image: url("../images/lektop.jpg");
 }
-.box4{
+
+.box4 {
     background-image: url("../images/download.jpg");
 }
 
+/* banner start */
+.banner {
+    height: 250px;
+    background-image:url(../images/banner.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeats;
 
-    
+    margin: 20px 0px;   
+}   
